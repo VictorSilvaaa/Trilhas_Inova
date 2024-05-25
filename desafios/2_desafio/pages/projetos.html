@@ -3,51 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/projetos.css">
+    <title>Projetos</title>
 </head>
 <body>
-    <header class="header">
-        <nav class="header__links">
-            <a class="header__link" href="../index.html">
-                <img class="header__icon" src="./assets/img/icons/icon-home.png" alt="">
-                Home
-            </a>
-            <a class="header__link" href="./habilidades.html">
-                <img class="header__icon" src="./assets/img/icons/icon-desktop.png" alt="">
-                Habilidades
-            </a>
-            <a class="header__link" href="./projetos.html">
-                <img class="header__icon" src="./assets/img/icons/icon-heart.png" alt="">
-                Projetos
-            </a>
-        </nav>
-    </header>
-    <main class="container">
-        <section class="section projects">
-            <h1 class="title">Meus <strong class="title__strong">Projetos</strong></h1>
-            <p class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Officiis aliquam iusto, fugiat ratione rem consequuntur 
-                animi praesentium quod aspernatur, voluptatibus veritatis. 
-                Inventore, vero eos doloremque aut repudiandae sed quos temporibus!
-            </p>
-            <div class="projects__portfolio">
-                <a href="https://github.com/VictorSilvaaa" class="projects__portfolio__project">
-                    <img src="../assets/img/icons/icon-github.png" alt="">
+    <div class="container">
+        <header class="header">
+            <nav class="header__links">
+                <a class="header__link" href="../index.html">
+                    <img class="header__icon" src="../assets/img/icons/icon-home.png" alt="">
+                    Home
                 </a>
-                <a href="https://github.com/VictorSilvaaa"  class="projects__portfolio__project">
-                    <img src="../assets/img/icons/icon-github.png" alt="">
+                <a class="header__link" href="./habilidades.html">
+                    <img class="header__icon" src="../assets/img/icons/icon-desktop.png" alt="">
+                    Habilidades
                 </a>
+                <a class="header__link" href="./projetos.html">
+                    <img class="header__icon" src="../assets/img/icons/icon-heart.png" alt="">
+                    Projetos
+                </a>
+            </nav>
+        </header>
+        <main class="projects">
+            <section class="projects__resume">
+                <h1 class="title">Meus <strong class="title__strong">Projetos e Atividades Extracurriculares</strong></h1>
+                <p class="text">
+                   
+                </p>
+                <div class="projects__portfolio">
+                    <div class="projects__card">
+                        <div class="projects__card__img">
+                            <img src="../assets/img/logos/logo-pet.jpg" alt="">
+                        </div>
+                        <div class="projects__card__text">
+                            <p class="title">Membro do Grupo PETComp</p>
+                            <p class="projects__card__decricao">
+                                No grupo PETComp da UFMA obtive experiência com desenvolvimento de softwares utilizando js e php, ministrei monitoria nas disciplinas de algoritmos I e linguagem de programação I e auxiliei na realização de eventos como a recepção dos calouros.
+                            </p>
+                            <a target="_blank" href="https://petcompufma.org/integrantes.php" class="projects__card__link">Link da organização</a>
+                        </div>
+                    </div>
+    
+                    <div class="projects__card">
+                        <div class="projects__card__img">
+                            <img src="../assets/img/logos/logo-alura-php.png" alt="">
+                        </div>
+                        <div class="projects__card__text">
+                            <p class="title">CRUD PHP: Lista de vídeos</p>
+                            <p class="projects__card__decricao">
+                                Desenvolvimento de um website que permite adicionar, remover, vizualizar e atualizar uma lista de vídeos do youtube. Utilizando php com PDO e MySql. O projeto foi feito com acompanhamento do curso na alura.
+                            </p>
+                            <a target="_blank" href="https://github.com/VictorSilvaaa/crud-php" class="projects__card__link">Link da Projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="logos">
+                <img src="../assets/img/logos/logo-alura.png" alt="">
+                <img src="../assets/img/logos/logo-trilhas.png" alt="">
             </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="logos">
-            <img src="../assets/img/logos/logo-alura.png" alt="">
-            <img src="../assets/img/logos/logo-trilhas.png" alt="">
-        </div>
-       <p>Desenvolvido por João Victor</p>
-    </footer>
+           <p>Desenvolvido por João Victor</p>
+        </footer>
+    </div>
 </body>
 </html>
